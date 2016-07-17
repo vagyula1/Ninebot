@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_calculator_params">
+        <item>Modell</item>
+        <item>Akkumulátor kapacitás</item>
+        <item>Súly</item>
+        <item>Környezet levegő hőmérséklete</item>
+        <item>Vezetési stílus</item>
+        <item>Akkumulátor teljes feltöltési ideje</item>
+    </string-array>
+    <string-array name="array_calculator_params_default">
+        <item>Ninebot Elite</item>
+        <item>450WH</item>
+        <item>50.0kg</item>
+        <item>25°C</item>
+        <item>Move at a constant speed of 15 km/h</item>
+        <item>2 alkalommal</item>
+    </string-array>
+    <string-array name="error_code">
+        <item>1~8</item>
+        <item>9~12</item>
+        <item>13~19</item>
+        <item>20~29</item>
+        <item>30~34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41~42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46 fölött</item>
+    </string-array>
+    <string-array name="error_code_content">
+        <item>A motor szenzora vagy a vezetés rendellenes</item>
+        <item>A jármű nagyteljesítményű kapcsolócsöve megsérült</item>
+        <item>Other faults of motor driver of vehicle</item>
+        <item>Attitude sensor of vehicle is abnormal</item>
+        <item>Internal communication of vehicle is abnormal</item>
+        <item>Commutation circuit of battery is abnormal</item>
+        <item>1.Akkumulátor kimeneti feszültsége rendellenes</item>
+        <item>2.Akkumulátor kimeneti feszültsége rendellenes</item>
+        <item>1.Akkumulátor hőmérséklete rendellenes</item>
+        <item>2.Akkumulátor hőmérséklete rendellenes</item>
+        <item>Pedál szenzor rendellenes</item>
+        <item>12VDC or 5VDC low voltage power output inside the vehicle is abnormal</item>
+        <item>Töltő rendellenes</item>
+        <item>Factory test retaining</item>
+        <item>Dip angle of the vehicle is too large in the process of driving</item>
+        <item>Nem definiált hibakód</item>
+    </string-array>
+    <string-array name="error_code_content_mini">
+        <item>12V voltage error, please check control board.</item>
+        <item>5V voltage error, please check control board.</item>
+        <item>3.3V voltage error, please check control board.</item>
+        <item>CPU start error, please check control board.</item>
+        <item>Left motor sensor error, please check control board.</item>
+        <item>Right motor sensor error, please check control board.</item>
+        <item>Firmware of battery is not available now, please update battery firmware.</item>
+        <item>Left foot sensor error, please check foot sensor or foot pedal switch cable.</item>
+        <item>Right foot sensor error, please check foot sensor or foot pedal switch cable.</item>
+        <item>Knee control turning sensor error, please check knee control sensor or the connecting cable.</item>
+        <item>Gravity sensor error.</item>
+        <item>Batter connection error, please check the battery connection.</item>
+        <item>Battery password error, please change the correct battery.</item>
+        <item>Drive voltage error, please check control board and battery voltage.</item>
+        <item>Cannot power off.</item>
+        <item>Left motor drive sensor error, please check control board.</item>
+        <item>Right motor drive sensor error, please check control board.</item>
+        <item>Over angle protection.</item>
+        <item>Firmware downloading error, please upgrade firmware.</item>
+        <item>Gyroscope error, please check control board.</item>
+        <item>Left motor sensor error, please check motor cable or change motor.</item>
+        <item>Right motor sensor error, please check motor cable or change motor.</item>
+        <item>Battery temperature error, please make sure the temperature is around -10℃~50℃.</item>
+        <item>Voltage of battery cell error, please contact after-sales service.</item>
+        <item>"The battery's serial number is illegal."</item>
+        <item>Nem definiált hibakód.</item>
+    </string-array>
+    <string-array name="error_code_content_mk2">
+        <item>Fault of motor sensor or motor is not connected.</item>
+        <item>Failure of motor A current.</item>
+        <item>Failure of motor B current.</item>
+        <item>Failure of motor C current.</item>
+        <item>Vehicle S/N is the initial S/N.</item>
+        <item>Battery #1: abnormal communication.</item>
+        <item>Battery #2: abnormal communication.</item>
+        <item>Failure of gyroscope initialization.</item>
+        <item>Failure of gyroscope calibration.</item>
+        <item>Battery #1: abnormal output.</item>
+        <item>Battery #2: abnormal output.</item>
+        <item>Battery #1: abnormal temperature.</item>
+        <item>Battery #2: abnormal temperature.</item>
+        <item>Error of general voltage.</item>
+        <item>Error of voltage upgrade</item>
+        <item>Error of system clock.</item>
+        <item>Error of current calibration.</item>
+        <item>Battery #1: abnormal power supply</item>
+        <item>Battery #2: abnormal power supply</item>
+        <item>Temperature sensor open circuit.</item>
+        <item>Temperature sensor is short circuit.</item>
+        <item>Battery 1 password incorrect.</item>
+        <item>Battery 2 password incorrect.</item>
+        <item>Battery cell of battery 1 is in big differential pressure.</item>
+        <item>Battery cell of battery 2 is in big differential pressure.</item>
+        <item>Battery 1 comes into testing model.</item>
+        <item>Battey 2 comes into testing model.</item>
+        <item>Undefined error.</item>
+    </string-array>
+    <string-array name="error_code_mini">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>9,28,29</item>
+        <item>11~13</item>
+        <item>14~16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>26</item>
+        <item>27</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36~38</item>
+        <item>39~41</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="error_code_mk2">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="error_code_reason">
+        <item>"1.impact to the mainframe 
+2.Motor sensor fault caused by some internal electrical defect. 
+3. Accidental self-test failed. 
+
+"</item>
+        <item>"This failure may be caused by over-voltage or over-current. Usually, violent collision during ride/ long-time over load/riding in very high ambient temperature may cause this failure. This error/failure is usually accompanied with wheel-lock(very hard to rotate the wheel).
+
+"</item>
+        <item>"Generally, reasons are power switch transistor is abnormal, or update of firmware of motor driver fails .
+
+"</item>
+        <item>"1.Caused by fierce impact to the mainframe, which results in dislocation or damage of attitude sensor 
+2. Components and parts of attitude sensor break down 
+3. Electromagnetic interference causes attitude sensor of the car to give abnormal signals 
+4. Occasional abnormal detection during starting up self-inspection
+
+"</item>
+        <item>"1.Looseness of 6 lock screw between upside and downside of handlebar causes bad contact
+2. Looseness of internal cable and contact of the car body causes bad contact
+3. Components and parts related to internal communication of car body break down
+
+"</item>
+        <item>"Hot backup protection commutation circuit of internal battery of the vehicle is abnormal 
+
+"</item>
+        <item>"Over discharge, disconnection of battery 1 or short circuit protection appears 
+
+"</item>
+        <item>"Over discharge, disconnection of battery 2 or short circuit protection appears 
+
+"</item>
+        <item>"1.Abnormal high temperature is generated in battery 1 due to short circuit 
+2. Damage of temperature sensor in battery interior 
+3. Environment temperature is too high or too low
+
+"</item>
+        <item>"1.1.Abnormal high temperature is generated in battery 2 due to short circuit 
+2. Damage of temperature sensor in battery interior 
+3. Environment temperature is too high or too low
+
+"</item>
+        <item>"1. Pedal sensor of human body is invalid
+2. Transformation of pedal faceplate results in that pedal sensor fails to work
+
+"</item>
+        <item>"1. Power supply load of handlebar USB is too heavy or short circuit (over 5VDC/1.5A) 
+2. Output short circuit of interior 12VDC power or 5 VDC power
+3. Power circuit is damaged
+
+"</item>
+        <item>"Charger output is abnormal, it is unable to charge Ninebot normally
+
+"</item>
+        <item>"Factory test retaining 
+
+"</item>
+        <item>"Pitching angle or roll angle is too large when Ninebot is driving. The error will appear generally when galloping falls over accidentally or vehicle falls down due to losing balance
+
+"</item>
+        <item>"Reserve unused error code; error type has not been defined yet 
+
+"</item>
+    </string-array>
+    <array name="error_code_reason_mini" />
+    <array name="error_code_reason_mk2" />
+    <string-array name="error_code_solution">
+        <item>"Attempt to restart, if the error still exists, please contact your retailer or Ninebot service center; you may be asked to deliver mainframe of Ninebot to your retailer for overhauling. 
+
+ E-mail (Chinese/English): service@ninebot.com
+
+"</item>
+        <item>"Users cannot solve the fault by themselves. Please contact your retailer or Ninebot service center; you may be asked to deliver mainframe of Ninebot to your retailer for overhauling. 
+
+ E-mail (Chinese/English): service@ninebot.com
+
+"</item>
+        <item>"Attempt to restart, if it still cannot be solved, please contact your dealer or Ninebot service center, you may be asked to deliver mainframe of Ninebot to your retailer for overhauling. 
+
+E-mail (Chinese/English): service@ninebot.com
+
+"</item>
+        <item>"Attempt to restart, if it still cannot be solved, please contact your dealer or Ninebot service center, you may be asked to deliver mainframe of Ninebot to your retailer for overhauling. 
+
+ E-mail (Chinese/English): service@ninebot.com
+
+"</item>
+        <item>"1. Ensure that downside of handlebar is inserted in place (refer to 2.3.2 of user’s manual).This error will occur if handlebar is inserted to mainframe in a wrong place. 
+2. Ensure 6 screws (i.e., the screws twisted when assemble is done to your new car) connecting upside and downside of handlebar have been perfectly tightened; waggle the handlebar gently, to ensure the position does not loose. Looseness of the screws may results in bad contact, which causes the error 
+
+"</item>
+        <item>"Attempt to restart 2– for 3 times and observe whether the error disappears. If the error still exists, please contact your retailer or Ninebot service center; you may be asked to deliver mainframe of Ninebot to your retailer for overhauling. 
+
+ E-mail (Chinese/English): service@ninebot.com
+
+"</item>
+        <item>"dismantle battery pack and remount, try to charge again, if the error still exists, please contact your retailer or Ninebot service center; you may be asked to deliver your battery pack to your retailer for overhauling. 
+
+ E-mail (Chinese/English): service@ninebot.com
+
+"</item>
+        <item>"Charge the car body for 10 minutes with the charger, if the problem still cannot be solved, dismantle battery pack and remount, try to charge again, if the error still exists, please contact your retailer or Ninebot service center; you may be asked to deliver your battery pack to your retailer for overhauling. 
+
+ E-mail (Chinese/English): service@ninebot.com
+
+"</item>
+        <item>"1. If the error occurs when using Ninebot after being deposited at minus 10 degrees Celsius, it may be the too low environment temperature that results in low temperature alarm. Please put Ninebot in room temperature environment for at least eight hours, and then try again. 
+2. Touch battery case with hand, if it is hot, please disuse immediately, and attempt to restart after placing Ninebot at room temperature for at least 4 hours. If the error still exists, please disuse Ninebot immediately and contact your retailer or Ninebot service center; you may be asked to deliver your battery pack to your retailer for overhauling. 
+
+ E-mail (Chinese/English): service@ninebot.com
+
+"</item>
+        <item>"1. If the error occurs when using Ninebot after being deposited at minus 10 degrees Celsius, it may be the too low environment temperature that results in low temperature alarm. Please put Ninebot in room temperature environment for at least eight hours, and then try again. 
+2. Touch battery case with hand, if it is hot, please disuse immediately, and attempt to restart after placing Ninebot at room temperature for at least 4 hours. If the error still exists, please disuse Ninebot immediately and contact your retailer or Ninebot service center; you may be asked to deliver your battery pack to your retailer for overhauling. 
+
+ E-mail (Chinese/English): service@ninebot.com
+
+"</item>
+        <item>"1. Ensure that pedal faceplate is not stamped or pressed when starting up is being done. 
+2. Check whether pedal plate can bounce normally when feet are not on pedal faceplate. 
+3. If it still cannot be solved, please contact your retailer or Ninebot service center; you may be asked to deliver car body of Ninebot to your retailer for overhauling. 
+
+：
+
+ E-mail (Chinese/English): service@ninebot.com
+
+"</item>
+        <item>"1.Ensure that peripheral power dissipation connecting the vehicle is below 8W (5V/1.5A); 
+2 In case no peripheral power is connected, disconnect the handlebar entirely from mainframe and restart .In case starting is conducted normally after handlebar is disconnected, it indicates that there is short circuit phenomenon in circuit inside the handlebar. Under the circumstance, you need to deliver upside and downside of the handlebar to your retailer for overhauling; In case the error still exists after the handlebar is disconnected, it indicates that faults exist in car body of Ninebot, and you need to deliver mainframe of Ninebot to your retailer for overhauling. E-mail (Chinese/English): service@ninebot.com
+
+"</item>
+        <item>"1. Please remove charger from AC socket and Ninebot, and replug. If the error still exists, maybe there is something wrong with the charger, and you need to deliver the charger to your retailer for overhauling or ask to exchange for a new charger. 
+2 In case the error still exists when charging with the new charger, it indicates that something is wrong inside the car body. Please deliver the mainframe of Ninebot to your retailer for overhauling. E-mail (Chinese/English): service@ninebot.com
+
+"</item>
+        <item>"Normally, the error will not occur. In case the error appears, please deliver the mainframe of Ninebot to your retailer for overhauling. 
+
+ E-mail (Chinese/English): service@ninebot.com
+
+"</item>
+        <item>"Generally, the error may auto disappear after restarting. In case the error still exists after restarting, please deliver the mainframe of Ninebot to your retailer for overhauling. 
+
+ E-mail (Chinese/English): service@ninebot.com
+
+"</item>
+        <item>"At present, reserve unused error number. Attempt to restart 2– for 3 times and observe whether the error disappears. In case the error number still appears, maybe there is something wrong with your instrument panel of Ninebot. Please deliver the mainframe of Ninebot to your retailer for overhauling. 
+
+ E-mail (Kínai/Angol): service@ninebot.com
+
+"</item>
+    </string-array>
+    <array name="error_code_solution_mini" />
+    <string-array name="setting_light_mode">
+        <item>Bezárás</item>
+        <item>Alaphelyzet</item>
+        <item>Légzés</item>
+        <item>Villogás</item>
+        <item>Bal irányjelzés</item>
+        <item>Jobb irányjelzés</item>
+        <item>Kétirányú jelzés</item>
+    </string-array>
+    <string-array name="settings_light_front_period">
+        <item>1 mp</item>
+        <item>2 mp</item>
+        <item>3 mp</item>
+        <item>4 mp</item>
+        <item>5 mp</item>
+        <item>6 mp</item>
+        <item>7 mp</item>
+        <item>8 mp</item>
+        <item>9 mp</item>
+        <item>10 mp</item>
+    </string-array>
+    <string-array name="settings_light_mode_mini">
+        <item>Hangulatlámpa kikcsapolása</item>
+        <item>Egyszínű légzés</item>
+        <item>Színes légzés</item>
+        <item>Kát sárkány játszik egy labdával</item>
+        <item>Színes vektor</item>
+        <item>Egyszínű meteor</item>
+        <item>Színes meteor</item>
+        <item>1.Riasztólámpa mód</item>
+        <item>2.Riasztólámpa mód</item>
+        <item>3.Riasztólámpa mód</item>
+    </string-array>
+    <string-array name="settings_light_mode_one">
+        <item>angulatlámpa kikcsapolása</item>
+        <item>Színes Meteor</item>
+        <item>Az ikerek</item>
+        <item>Blossom Age</item>
+        <item>Dinamikus légzés</item>
+        <item>Sokszínű áramlás</item>
+        <item>Sokszínű Meteor</item>
+        <item>Színjátszó légzés</item>
+    </string-array>
+    <string-array name="settings_speed_limit_metric">
+        <item>4 km/ó</item>
+        <item>5 km/ó</item>
+        <item>6 km/ó</item>
+        <item>7 km/ó</item>
+        <item>8 km/ó</item>
+        <item>9 km/ó</item>
+        <item>10 km/ó</item>
+    </string-array>
+    <string-array name="settings_speed_normal_metric">
+        <item>11 km/ó</item>
+        <item>12 km/ó</item>
+        <item>13 km/ó</item>
+        <item>14 km/ó</item>
+        <item>15 km/ó</item>
+        <item>16 km/ó</item>
+        <item>17 km/ó</item>
+        <item>18 km/ó</item>
+        <item>19 km/ó</item>
+        <item>20 km/ó</item>
+    </string-array>
+    <string-array name="warn_code_content_mini">
+        <item>Battery is too low. Please recharge it!</item>
+        <item>Vehicle body temperature is too high!</item>
+        <item>Vehicle body temperature is too low!</item>
+        <item>Battery temperature is too high!</item>
+        <item>Battery temperature is too low!</item>
+        <item>Reverse speed is too fast. Please drive carefully!</item>
+        <item>Motor is stalling. Please drive carefully!</item>
+        <item>Your vehicle is tumbling accidentally. Please drive carefully!</item>
+        <item>Your vehicle is in lock mode!</item>
+        <item>You have driven over the speed limit. Please drive carefully.</item>
+        <item>You have driven over the speed limit excessively. Please drive carefully.</item>
+        <item>The battery voltage is too high. Please don’t drive down a slope or slam the brakes on and avoid energy recycle that leads to over-charge of the battery!;</item>
+        <item>The motor is close to being overload. Please slow down immediately!</item>
+        <item>The output power of your vehicle is too high. Please slow down immediately!</item>
+        <item>The motor torque is too large. Please drive carefully!</item>
+        <item>You are speeding up too fast. Please drive carefully!</item>
+        <item>Battery voltage is low, please be careful when ridding.</item>
+        <item>Foot sensor is tilting back because of high speed, vehicle will be slow down!</item>
+        <item>Undefined warning code.</item>
+    </string-array>
+</resources>
