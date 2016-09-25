@@ -13,7 +13,7 @@
         <item>450WH</item>
         <item>50.0kg</item>
         <item>25°C</item>
-        <item>Move at a constant speed of 15 km/h</item>
+        <item>Állandó 15 km/h sebességgel mozog</item>
         <item>2 alkalommal</item>
     </string-array>
     <string-array name="error_code">
@@ -37,31 +37,31 @@
     <string-array name="error_code_content">
         <item>A motor szenzora vagy a vezetés rendellenes</item>
         <item>A jármű nagyteljesítményű kapcsolócsöve megsérült</item>
-        <item>Other faults of motor driver of vehicle</item>
-        <item>Attitude sensor of vehicle is abnormal</item>
-        <item>Internal communication of vehicle is abnormal</item>
-        <item>Commutation circuit of battery is abnormal</item>
+        <item>Egyéb motoros hibák a járműben</item>
+        <item>A jármű helyzet érzékelője rendellenes</item>
+        <item>A jármű belső kommunikációja rendellenes</item>
+        <item>Az akkumulátor kommunikációs áramkore rendellenes</item>
         <item>1.Akkumulátor kimeneti feszültsége rendellenes</item>
         <item>2.Akkumulátor kimeneti feszültsége rendellenes</item>
         <item>1.Akkumulátor hőmérséklete rendellenes</item>
         <item>2.Akkumulátor hőmérséklete rendellenes</item>
         <item>Pedál szenzor rendellenes</item>
-        <item>12VDC or 5VDC low voltage power output inside the vehicle is abnormal</item>
+        <item>12VDC vagy 5V kisfeszültségű teljesítmény a jármű belsejében rendellenes</item>
         <item>Töltő rendellenes</item>
-        <item>Factory test retaining</item>
-        <item>Dip angle of the vehicle is too large in the process of driving</item>
+        <item>Gyári teszt visszatartás</item>
+        <item>A jármű DIP szöge túl nagy a vezetéshez</item>
         <item>Nem definiált hibakód</item>
     </string-array>
     <string-array name="error_code_content_mini">
-        <item>12V voltage error, please check control board.</item>
-        <item>5V voltage error, please check control board.</item>
-        <item>3.3V voltage error, please check control board.</item>
-        <item>CPU start error, please check control board.</item>
-        <item>Left motor sensor error, please check control board.</item>
-        <item>Right motor sensor error, please check control board.</item>
-        <item>Firmware of battery is not available now, please update battery firmware.</item>
-        <item>Left foot sensor error, please check foot sensor or foot pedal switch cable.</item>
-        <item>Right foot sensor error, please check foot sensor or foot pedal switch cable.</item>
+        <item>12V feszültség hiba, kérjük, ellenőrizze a vezérlőpanelt.</item>
+        <item>5V feszültség hiba, kérjük, ellenőrizze a vezérlőpanelt.</item>
+        <item>3.3V feszültség hiba, kérjük, ellenőrizze a vezérlőpanelt.</item>
+        <item>CPU indítás hiba, kérjük, ellenőrizze a vezérlőpanelt.</item>
+        <item>Bal oldali motor szenzor hiba, kérjük, ellenőrizze a vezérlőpanelt.</item>
+        <item>Job oldali motor szenzor hiba, kérjük, ellenőrizze a vezérlőpanelt.</item>
+        <item>Az akkumulátor frimware most nem elérhető, kérem, frissítse a firmwaret.</item>
+        <item>Bal láb szenzor hiba, kérjük, ellenőrizze a vezérlőpanelt.</item>
+        <item>Job láb szenzor hiba, please check foot sensor or foot pedal switch cable.</item>
         <item>Knee control turning sensor error, please check knee control sensor or the connecting cable.</item>
         <item>Gravity sensor error.</item>
         <item>Batter connection error, please check the battery connection.</item>
@@ -166,7 +166,7 @@
         <item>35</item>
         <item>36</item>
         <item>37</item>
-        <item>Other</item>
+        <item>Egyéb</item>
     </string-array>
     <string-array name="error_code_reason">
         <item>"1.impact to the mainframe 
@@ -354,7 +354,7 @@ E-mail (Chinese/English): service@ninebot.com
         <item>3.Riasztólámpa mód</item>
     </string-array>
     <string-array name="settings_light_mode_one">
-        <item>angulatlámpa kikcsapolása</item>
+        <item>Hangulatlámpa kikcsapolása</item>
         <item>Színes Meteor</item>
         <item>Az ikerek</item>
         <item>Blossom Age</item>
